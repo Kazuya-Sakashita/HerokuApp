@@ -8,6 +8,9 @@ import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 
+import "../css/tailwindcss.css";
+import "stylesheets/application";
+
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
